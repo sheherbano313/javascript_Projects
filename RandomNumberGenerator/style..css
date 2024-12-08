@@ -1,0 +1,50 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-div {
+    width: 40rem;
+    border: 1px solid gray;
+    padding: 1rem;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.container-div>* {
+    margin-bottom: 2rem;
+}
+
+.count {
+    font-size: 3rem;
+}
+
+.button button {
+    padding: 1rem;
+    margin: 0 1rem;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+button.subtract {
+    background-color:orange;
+    color: white;
+}
+button.reset {
+    background-color: rgb(255, 253, 253);
+    color: black;
+}
+button.add {
+    background-color: green;
+    color: white;
+}
