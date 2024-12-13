@@ -1,0 +1,35 @@
+.container_panel{
+    justify-content: center;
+    margin: 15%;
+    background-color:white;
+    width: 40%;
+    height: 100px;
+    padding-top: 14px;
+}
+.main{
+    display: flex;
+    background-color: blue;
+}
+input{
+    border: none;
+    border-bottom: 2px solid green;
+    padding: 7px;
+    outline: none;
+    padding-left: 10px;
+    margin-left: 2rem;
+}
+button{
+    background-color: green;
+    color: white;
+    padding: 0.4rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+p.result{
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 1.34rem;
+    font-weight: 600;
+     color: darkgray;
+}
