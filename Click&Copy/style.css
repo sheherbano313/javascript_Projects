@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: "Open Sans","sans-serif";
+   background-color: lightblue;
+}
+p{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+.cotainer{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
